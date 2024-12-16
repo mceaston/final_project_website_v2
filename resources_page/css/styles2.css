@@ -1,0 +1,44 @@
+
+a {
+    color: black; /* Text color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes the link bold */
+  }
+  
+  /* Hover state (when the mouse is over the link) */
+  a:hover {
+    color: lightblue; /* Change color on hover */
+    text-decoration: none; 
+  }
+  
+  /* Visited state (after the link has been clicked) */
+  a:visited {
+    color: black; /* Text color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes the link bold */
+  }
+  
+  /* Active state (when the link is being clicked) */
+  a:active {
+    color: red; /* Change color while clicking */
+  }
+
+  .box1 {
+
+    position: relative;
+    top: 5px;
+    left: 100px;
+    right: 100px;
+    border-width: 2px;
+    border: solid;
+    background-color: white;
+    border-color: black;
+
+  }
+
+  .myalign{
+
+    text-align: center !important;
+
+  }
+  
